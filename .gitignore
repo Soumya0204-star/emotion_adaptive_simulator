@@ -1,0 +1,56 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases
+database/*.db
+database/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.env
+frontend-react/.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
